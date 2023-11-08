@@ -4,25 +4,23 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
+  gigasec,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  budgetapp,
+  bookstore,
+  hotelhub,
   threejs,
+  bootstrap,
+  ruby,
+  sass,
+  logo,
 } from "../assets";
 
 export const navLinks = [
@@ -72,10 +70,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
@@ -89,12 +84,16 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Ruby on Rails",
+    icon: ruby,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Saas",
+    icon: sass,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Three JS",
@@ -108,63 +107,45 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Intern",
+    company_name: "Gigasec",
+    icon: gigasec,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - April 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Wix Web designer",
+    company_name: "Free Lanced",
+    icon: logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2022 - Jul 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learning and designing websites using Wix with the help of my frontend skills",
+      "Finishing the project before the deadline",
+      "Meeting all the client requirements",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    company_name: "Self Employed",
+    icon: logo,
+    iconBg: "#383E56",
+    date: "Jan 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborating with students from diverse region across the globe via slack and zoom in learning and building real life projects at Microverse",
+      "Learning and implementing the best practices in software development",
+      "Working remotely daily with other coding partners to build projects",
+      "Completing all the required projects before the end of the week to avoid repeatation of the block (week)",
+      "",
     ],
   },
 ];
@@ -198,16 +179,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Hotel Hub",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is an hotel management application that is managed by the admin and used by customers, were customers can book rooms and admin can manage the rooms and bookings.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Rails",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +196,55 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: hotelhub,
+    source_code_link:
+      "https://github.com/Peter-Dumbari/Final-Capstone-Hotel-Hub",
+    live_link: "https://hotel-hub-0bao.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "Book Store",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This Application is an online application for saving name of books and their authors, it help you in saving those books for a longer time , with a sweet and wonderful users interface",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Rails",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: bookstore,
+    source_code_link:
+      "https://github.com/Peter-Dumbari/Bookstore-Application.git",
+    live_link: "https://bookstore-0bao.onrender.com",
   },
   {
-    name: "Trip Guide",
+    name: "Budget Tracker",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This a web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
     tags: [
       {
-        name: "nextjs",
+        name: "Rails",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "React",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: budgetapp,
+    source_code_link: "https://github.com/Peter-Dumbari/Budget-Application.git",
+    live_link: "https://budget-application-wscs.onrender.com/",
   },
 ];
 
