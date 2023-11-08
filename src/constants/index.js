@@ -12,7 +12,6 @@ import {
   git,
   figma,
   gigasec,
-  shopify,
   budgetapp,
   bookstore,
   hotelhub,
