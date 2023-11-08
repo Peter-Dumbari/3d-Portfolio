@@ -9,10 +9,6 @@ import { slideIn } from "../utils/motion";
 
 const Contact = () => {
   const formRef = useRef();
-  const service_id = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-  const template_id = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-  const public_id = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
-
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -37,16 +33,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        service_id,
-        template_id,
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Peter Dumbari",
           from_email: form.email,
-          to_email: "peterdumbari@gmail.pro",
+          to_email: "peterdumbari08@gmail.pro",
           message: form.message,
         },
-        public_id
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
