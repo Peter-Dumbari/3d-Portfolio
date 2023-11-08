@@ -145,7 +145,7 @@ const experiences = [
       "Learning and implementing the best practices in software development",
       "Working remotely daily with other coding partners to build projects",
       "Completing all the required projects before the end of the week to avoid repeatation of the block (week)",
-      "",
+      ,
     ],
   },
 ];
@@ -153,27 +153,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Peter proved me wrong.",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Peter does.",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Peter optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
   },
 ];
 
@@ -199,7 +199,7 @@ const projects = [
     image: hotelhub,
     source_code_link:
       "https://github.com/Peter-Dumbari/Final-Capstone-Hotel-Hub",
-    live_link: "https://hotel-hub-0bao.onrender.com/",
+    live_link: "https://hotel-hub-app.onrender.com/",
   },
   {
     name: "Book Store",
