@@ -88,7 +88,7 @@ After you're finished please remove all the comments and instructions!
 
 - **Introduction of me and myself**
 - **list of my best work**
-- **3D animation using threejs and react packages**
+- **means of contacting me**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
