@@ -21,6 +21,9 @@ const Hero = () => {
             I develop 3D visuals, user <br className="sm:block hidden" />
             interfaces and web applications
           </p>
+          <div>
+            <p>My links go here</p>
+          </div>
         </div>
       </div>
 
