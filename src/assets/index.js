@@ -29,6 +29,8 @@ import gigasec from "./company/gigasec.jpg";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import linkedin from "./company/linkedin.png";
+import twitter from "./company/twitter.png";
 
 import hotelhub from "./hotelhub.png";
 import bookstore from "./bookstore.png";
@@ -67,4 +69,6 @@ export {
   ruby,
   sass,
   budgetapp,
+  twitter,
+  linkedin,
 };
