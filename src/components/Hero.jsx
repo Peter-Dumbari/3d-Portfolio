@@ -23,6 +23,7 @@ const Hero = () => {
           </p>
           <div>
             <p>My links go here</p>
+            <p>githuv and linkedin link goes here</p>
           </div>
         </div>
       </div>
