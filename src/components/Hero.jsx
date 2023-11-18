@@ -24,6 +24,7 @@ const Hero = () => {
           <div>
             <p>My links go here</p>
             <p>githuv and linkedin link goes here</p>
+            <p>I will delete it by tomorrow</p>
           </div>
         </div>
       </div>
