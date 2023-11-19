@@ -19,6 +19,8 @@ import {
   bootstrap,
   ruby,
   sass,
+  linkedin,
+  github,
   logo,
 } from "../assets";
 
@@ -247,4 +249,15 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const links = [
+  {
+    link: "https://www.linkedin.com/in/peterdumbari/",
+    icon: linkedin,
+  },
+  {
+    link: "https://github.com/Peter-Dumbari",
+    icon: github,
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, links };
