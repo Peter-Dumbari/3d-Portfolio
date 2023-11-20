@@ -22,6 +22,7 @@ import {
   linkedin,
   github,
   logo,
+  twitter,
 } from "../assets";
 
 export const navLinks = [
@@ -253,10 +254,17 @@ const links = [
   {
     link: "https://www.linkedin.com/in/peterdumbari/",
     icon: linkedin,
+    name: "linkedIn",
   },
   {
     link: "https://github.com/Peter-Dumbari",
     icon: github,
+    name: "github",
+  },
+  {
+    link: "https://github.com/Peter-Dumbari",
+    icon: twitter,
+    name: "twitter",
   },
 ];
 
