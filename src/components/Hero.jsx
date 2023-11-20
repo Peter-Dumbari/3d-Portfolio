@@ -21,14 +21,8 @@ const Hero = () => {
             I develop 3D visuals, user <br className="sm:block hidden" />
             interfaces and web applications
           </p>
-          <div>
-            <p>My links go here</p>
-            <p>githuv and linkedin link goes here</p>
-            <p>I will delete it by tomorrow</p>
-          </div>
         </div>
       </div>
-
       <ComputersCanvas />
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
