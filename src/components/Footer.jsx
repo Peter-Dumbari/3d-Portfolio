@@ -7,10 +7,8 @@ import { links } from "../constants";
 const Footer = () => {
   return (
     <section className="w-full  items-center py-5 z-20">
-      <div className="bg-white w-ful h-1"></div>
-
       <motion.div>
-        <div className="container flex justify-center w-50">
+        <div className="w-50">
           {links.map((link) => (
             <div
               className="flex"

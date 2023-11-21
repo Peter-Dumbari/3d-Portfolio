@@ -31,6 +31,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import linkedin from "./company/linkedin.png";
 import twitter from "./company/twitter.png";
+import abel from "./company/Abel.jpg";
+import hussein from "./company/Hussein.jpg";
+import okongo from "./company/Okongo.jpg";
 
 import hotelhub from "./hotelhub.png";
 import bookstore from "./bookstore.png";
@@ -71,4 +74,7 @@ export {
   budgetapp,
   twitter,
   linkedin,
+  abel,
+  hussein,
+  okongo,
 };

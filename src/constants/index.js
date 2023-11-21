@@ -23,6 +23,9 @@ import {
   github,
   logo,
   twitter,
+  abel,
+  hussein,
+  okongo,
 } from "../assets";
 
 export const navLinks = [
@@ -155,27 +158,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Peter proved me wrong.",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
+      "I highly recommend Peter for any software development position that may arise. He is undoubtedly a valuable asset to any team. ",
+    name: "Abel Morara",
+    designation: "Alumni",
+    company: "Microverse",
+    image: abel,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Peter does.",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
+      "One of Peter's standout qualities is his remarkable attention to detail. I highly recommend him",
+    name: "Hussein Hashi",
+    designation: "Alumni",
+    company: "Microverse",
+    image: hussein,
   },
   {
     testimonial:
-      "After Peter optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
+      "It is impressive to witness his deep understanding and mastery of React and APIs",
+    name: "Okongo Derrick",
+    designation: "Alumni",
+    company: "Microverse",
+    image: okongo,
   },
 ];
 
