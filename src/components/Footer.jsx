@@ -20,7 +20,7 @@ const Footer = () => {
                 <img
                   src={link.icon}
                   alt={link.name}
-                  className="w-1/2 h-1/2 object-contain"
+                  className="w-1/3 h-1/3 object-contain"
                 />
               </div>
             </div>
