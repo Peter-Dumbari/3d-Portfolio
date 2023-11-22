@@ -6,26 +6,26 @@ import { links } from "../constants";
 
 const Footer = () => {
   return (
-    <section className="w-full items-center py-5 z-20">
+    <div className="fixed top-0 left-0 flex items-center h-full">
       <motion.div>
-        <div className="w-50">
+        <div className="flex  flex-col l w-10  p-[1px]">
           {links.map((link) => (
             <div
-              className="flex"
+              className="flex  py-4"
               key={link.index}
               onClick={() => window.open(link.link, "_blank")}>
-              <div className="container pointer">
+              <div className="container cursor-pointer">
                 <img
                   src={link.icon}
                   alt={link.name}
-                  className="w-1/3 h-1/3 object-contain"
+                  className="object-contain h-auto w-10"
                 />
               </div>
             </div>
           ))}
         </div>
       </motion.div>
-    </section>
+    </div>
   );
 };
 
