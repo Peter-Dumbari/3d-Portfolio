@@ -6,7 +6,7 @@ import { links } from "../constants";
 
 const Footer = () => {
   return (
-    <section className="w-full  items-center py-5 z-20">
+    <section className="w-full items-center py-5 z-20">
       <motion.div>
         <div className="w-50">
           {links.map((link) => (
