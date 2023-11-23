@@ -26,6 +26,9 @@ import {
   abel,
   hussein,
   okongo,
+  currency_app,
+  weather_app,
+  mail,
 } from "../assets";
 
 export const navLinks = [
@@ -160,7 +163,7 @@ const testimonials = [
     testimonial:
       "I highly recommend Peter for any software development position that may arise. He is undoubtedly a valuable asset to any team. ",
     name: "Abel Morara",
-    designation: "Alumni",
+    designation: "Alumn",
     company: "Microverse",
     image: abel,
   },
@@ -168,7 +171,7 @@ const testimonials = [
     testimonial:
       "One of Peter's standout qualities is his remarkable attention to detail. I highly recommend him",
     name: "Hussein Hashi",
-    designation: "Alumni",
+    designation: "Alumn",
     company: "Microverse",
     image: hussein,
   },
@@ -176,7 +179,7 @@ const testimonials = [
     testimonial:
       "It is impressive to witness his deep understanding and mastery of React and APIs",
     name: "Okongo Derrick",
-    designation: "Alumni",
+    designation: "Alumn",
     company: "Microverse",
     image: okongo,
   },
@@ -251,6 +254,55 @@ const projects = [
     source_code_link: "https://github.com/Peter-Dumbari/Budget-Application.git",
     live_link: "https://budget-application-wscs.onrender.com/",
   },
+  {
+    name: "Currency Exchanger",
+    description:
+      "Currency Exchange app is an application that gives the current exchange rates",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rest API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+    ],
+    image: currency_app,
+    source_code_link:
+      "https://github.com/Peter-Dumbari/Metrics-Webapp/tree/development",
+    live_link: "https://currency-exchange-rates-nrj8.onrender.com/",
+  },
+  {
+    name: "Weather Application",
+    description:
+      "Weather App gives the current weather condition all round the globe, with the latitude and longitute of that location ",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rest API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+    ],
+    image: weather_app,
+    source_code_link: "https://github.com/Peter-Dumbari/weather-application",
+    live_link: "https://lworldweather.netlify.app/",
+  },
 ];
 
 const links = [
@@ -265,9 +317,14 @@ const links = [
     name: "github",
   },
   {
-    link: "https://github.com/Peter-Dumbari",
+    link: "https://twitter.com/PeterDumbari",
     icon: twitter,
     name: "twitter",
+  },
+  {
+    link: "https://mail.google.com/mail/u/1/?view=cm&fs=1&to=peterdumbari08@gmail.com&tf=1",
+    icon: mail,
+    name: "mail",
   },
 ];
 

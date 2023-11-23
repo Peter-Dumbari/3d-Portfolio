@@ -38,6 +38,9 @@ import okongo from "./company/Okongo.jpg";
 import hotelhub from "./hotelhub.png";
 import bookstore from "./bookstore.png";
 import budgetapp from "./budgetapp.png";
+import currency_app from "./currency_rates.png";
+import weather_app from "./weather_app.jpg";
+import mail from "./mail.png";
 
 export {
   logo,
@@ -77,4 +80,7 @@ export {
   abel,
   hussein,
   okongo,
+  currency_app,
+  weather_app,
+  mail,
 };
