@@ -21,6 +21,7 @@ const Footer = () => {
                   className="object-contain h-auto w-10"
                 />
               </div>
+              <button>dinamic</button>
             </div>
           ))}
         </div>
