@@ -34,6 +34,8 @@ import twitter from "./company/twitter.png";
 import abel from "./company/Abel.jpg";
 import hussein from "./company/Hussein.jpg";
 import okongo from "./company/Okongo.jpg";
+import returnicon from "./return.png";
+import chevron from "./chevron-right.png";
 
 import hotelhub from "./hotelhub.png";
 import bookstore from "./bookstore.png";
@@ -83,4 +85,6 @@ export {
   currency_app,
   weather_app,
   mail,
+  returnicon,
+  chevron,
 };
