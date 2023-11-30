@@ -184,7 +184,7 @@ If you like this project give it a star ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank myself for the grate effort put in delivering this project, also to Microverse.
+I would like to thank myself for the great effort put in delivering this project, also to Microverse.
 
 - Microverse
 
