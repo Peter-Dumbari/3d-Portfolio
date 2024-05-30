@@ -43,7 +43,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Peter &nbsp;
-            <span className="sm:block hidden"> | Software Dev</span>
+            <span className="sm:block hidden"> | The Code Nova</span>
           </p>
         </Link>
 
