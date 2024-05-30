@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import {
   mobile,
   backend,
@@ -29,6 +30,7 @@ import {
   currency_app,
   weather_app,
   mail,
+  eShop,
 } from "../assets";
 
 export const navLinks = [
@@ -302,6 +304,33 @@ const projects = [
     image: weather_app,
     source_code_link: "https://github.com/Peter-Dumbari/weather-application",
     live_link: "https://lworldweather.netlify.app/",
+  },
+
+  {
+    name: "Tams eShop",
+    description:
+      "This is an e-commerce site own by Tams Technology where you can buy all your electronics gadgets and accessories.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Rails",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: eShop,
+    source_code_link: "https://github.com/Peter-Dumbari/Ecommerce_frontend",
+    live_link: "https://tams-mall.onrender.com",
   },
 ];
 

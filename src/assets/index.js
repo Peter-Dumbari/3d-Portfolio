@@ -43,6 +43,7 @@ import budgetapp from "./budgetapp.png";
 import currency_app from "./currency_rates.png";
 import weather_app from "./weather_app.jpg";
 import mail from "./mail.png";
+export { default as eShop } from "./tamse-shop.jpg";
 
 export {
   logo,
