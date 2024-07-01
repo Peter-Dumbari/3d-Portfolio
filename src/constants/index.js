@@ -31,6 +31,7 @@ import {
   weather_app,
   mail,
   eShop,
+  virtual_lib,
 } from "../assets";
 
 export const navLinks = [
@@ -331,6 +332,32 @@ const projects = [
     image: eShop,
     source_code_link: "https://github.com/Peter-Dumbari/Ecommerce_frontend",
     live_link: "https://tams-mall.onrender.com",
+  },
+  {
+    name: "Virtual Library",
+    description:
+      "This is a virtual library where users can read, download and reserve books for future or later reading, admin can manage books and also manage the category of the books to the library",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Rails",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: virtual_lib,
+    source_code_link: "https://github.com/coker2019/virtual-library-front-end",
+    live_link: "https://virtual-library-88xi.onrender.com",
   },
 ];
 
