@@ -304,7 +304,7 @@ const projects = [
     ],
     image: weather_app,
     source_code_link: "https://github.com/Peter-Dumbari/weather-application",
-    live_link: "https://lworldweather.netlify.app/",
+    live_link: "https://weather-application-nxnz.onrender.com/",
   },
 
   {
