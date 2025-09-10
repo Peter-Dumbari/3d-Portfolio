@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -36,6 +36,7 @@ import hussein from "./company/Hussein.jpg";
 import okongo from "./company/Okongo.jpg";
 import returnicon from "./return.png";
 import chevron from "./chevron-right.png";
+import repairer from "./repairer.png";
 
 import hotelhub from "./hotelhub.png";
 import bookstore from "./bookstore.png";
@@ -89,4 +90,5 @@ export {
   mail,
   returnicon,
   chevron,
+  repairer,
 };
