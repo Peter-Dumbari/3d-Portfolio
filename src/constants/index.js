@@ -32,6 +32,7 @@ import {
   mail,
   eShop,
   virtual_lib,
+  repairer,
 } from "../assets";
 
 export const navLinks = [
@@ -51,7 +52,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
@@ -59,11 +60,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Mernstack Developer",
     icon: backend,
   },
   {
-    title: "App Developer",
+    title: "Graphic Designer",
     icon: creator,
   },
 ];
@@ -122,6 +123,32 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Mern stack Developer",
+    company_name: "Freelancing",
+    icon: logo,
+    iconBg: "#383E56",
+    date: "Jan 2022 - Present",
+    points: [
+      "Collaborating with students from diverse region across the globe via slack and zoom in learning and building real life projects at Microverse",
+      "Learning and implementing the best practices in software development",
+      "Working remotely daily with other coding partners to build projects",
+      "Completing all the required projects before the end of the week to avoid repeatation of the block (week)",
+      ,
+    ],
+  },
+  {
+    title: "Graphic Designer",
+    company_name: "Free Lanced",
+    icon: logo,
+    iconBg: "#383E56",
+    date: "June 2022 - Jul 2022",
+    points: [
+      "Passionate about creating astonishing designs",
+      "Finishing the project before the deadline",
+      "Meeting all the client requirements",
+    ],
+  },
+  {
     title: "Frontend Intern",
     company_name: "Gigasec",
     icon: gigasec,
@@ -134,29 +161,15 @@ const experiences = [
     ],
   },
   {
-    title: "Wix Web designer",
+    title: "Web designer",
     company_name: "Free Lanced",
     icon: logo,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "June 2022 - Jul 2022",
     points: [
       "Learning and designing websites using Wix with the help of my frontend skills",
       "Finishing the project before the deadline",
       "Meeting all the client requirements",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Self Employed",
-    icon: logo,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Present",
-    points: [
-      "Collaborating with students from diverse region across the globe via slack and zoom in learning and building real life projects at Microverse",
-      "Learning and implementing the best practices in software development",
-      "Working remotely daily with other coding partners to build projects",
-      "Completing all the required projects before the end of the week to avoid repeatation of the block (week)",
-      ,
     ],
   },
 ];
@@ -189,6 +202,85 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Repairer Shop Manager",
+    description:
+      "This app help in managing a computer repairing shop, it helps in track of all transactions",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux Toolkit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express Js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "puppeeteer",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: repairer,
+    live_link: "https://tsm-frontend-c4ab.onrender.com",
+    source_code_link: "https://github.com/Peter-Dumbari/TSM-Frontend",
+  },
+
+  {
+    name: "Tams eShop",
+    description:
+      "This is an e-commerce site own by Tams Technology where you can buy all your electronics gadgets and accessories.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Rails",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: eShop,
+    source_code_link: "https://github.com/Peter-Dumbari/Ecommerce_frontend",
+    live_link: "https://tams-mall.onrender.com",
+  },
+  {
+    name: "Virtual Library",
+    description:
+      "This is a virtual library where users can read, download and reserve books for future or later reading, admin can manage books and also manage the category of the books to the library",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Rails",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: virtual_lib,
+    source_code_link: "https://github.com/coker2019/virtual-library-front-end",
+    live_link: "https://virtual-library-88xi.onrender.com",
+  },
   {
     name: "Hotel Hub",
     description:
@@ -305,59 +397,6 @@ const projects = [
     image: weather_app,
     source_code_link: "https://github.com/Peter-Dumbari/weather-application",
     live_link: "https://weather-application-nxnz.onrender.com/",
-  },
-
-  {
-    name: "Tams eShop",
-    description:
-      "This is an e-commerce site own by Tams Technology where you can buy all your electronics gadgets and accessories.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Rails",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: eShop,
-    source_code_link: "https://github.com/Peter-Dumbari/Ecommerce_frontend",
-    live_link: "https://tams-mall.onrender.com",
-  },
-  {
-    name: "Virtual Library",
-    description:
-      "This is a virtual library where users can read, download and reserve books for future or later reading, admin can manage books and also manage the category of the books to the library",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Rails",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: virtual_lib,
-    source_code_link: "https://github.com/coker2019/virtual-library-front-end",
-    live_link: "https://virtual-library-88xi.onrender.com",
   },
 ];
 
