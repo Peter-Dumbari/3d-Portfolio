@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,10 +29,23 @@ import gigasec from "./company/gigasec.jpg";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import linkedin from "./company/linkedin.png";
+import twitter from "./company/twitter.png";
+import abel from "./company/Abel.jpg";
+import hussein from "./company/Hussein.jpg";
+import okongo from "./company/Okongo.jpg";
+import returnicon from "./return.png";
+import chevron from "./chevron-right.png";
+import repairer from "./repairer.png";
 
 import hotelhub from "./hotelhub.png";
 import bookstore from "./bookstore.png";
 import budgetapp from "./budgetapp.png";
+import currency_app from "./currency_rates.png";
+import weather_app from "./weather_app.jpg";
+import mail from "./mail.png";
+export { default as eShop } from "./tamse-shop.jpg";
+export { default as virtual_lib } from "./virtual_lib.png";
 
 export {
   logo,
@@ -67,4 +80,15 @@ export {
   ruby,
   sass,
   budgetapp,
+  twitter,
+  linkedin,
+  abel,
+  hussein,
+  okongo,
+  currency_app,
+  weather_app,
+  mail,
+  returnicon,
+  chevron,
+  repairer,
 };

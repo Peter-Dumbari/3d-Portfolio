@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import {
   mobile,
   backend,
@@ -19,7 +20,19 @@ import {
   bootstrap,
   ruby,
   sass,
+  linkedin,
+  github,
   logo,
+  twitter,
+  abel,
+  hussein,
+  okongo,
+  currency_app,
+  weather_app,
+  mail,
+  eShop,
+  virtual_lib,
+  repairer,
 } from "../assets";
 
 export const navLinks = [
@@ -39,7 +52,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
@@ -47,11 +60,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Mernstack Developer",
     icon: backend,
   },
   {
-    title: "App Developer",
+    title: "Graphic Designer",
     icon: creator,
   },
 ];
@@ -110,6 +123,32 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Mern stack Developer",
+    company_name: "Freelancing",
+    icon: logo,
+    iconBg: "#383E56",
+    date: "Jan 2022 - Present",
+    points: [
+      "Collaborating with students from diverse region across the globe via slack and zoom in learning and building real life projects at Microverse",
+      "Learning and implementing the best practices in software development",
+      "Working remotely daily with other coding partners to build projects",
+      "Completing all the required projects before the end of the week to avoid repeatation of the block (week)",
+      ,
+    ],
+  },
+  {
+    title: "Graphic Designer",
+    company_name: "Free Lanced",
+    icon: logo,
+    iconBg: "#383E56",
+    date: "June 2022 - Jul 2022",
+    points: [
+      "Passionate about creating astonishing designs",
+      "Finishing the project before the deadline",
+      "Meeting all the client requirements",
+    ],
+  },
+  {
     title: "Frontend Intern",
     company_name: "Gigasec",
     icon: gigasec,
@@ -122,10 +161,10 @@ const experiences = [
     ],
   },
   {
-    title: "Wix Web designer",
+    title: "Web designer",
     company_name: "Free Lanced",
     icon: logo,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "June 2022 - Jul 2022",
     points: [
       "Learning and designing websites using Wix with the help of my frontend skills",
@@ -133,50 +172,115 @@ const experiences = [
       "Meeting all the client requirements",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Self Employed",
-    icon: logo,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Present",
-    points: [
-      "Collaborating with students from diverse region across the globe via slack and zoom in learning and building real life projects at Microverse",
-      "Learning and implementing the best practices in software development",
-      "Working remotely daily with other coding partners to build projects",
-      "Completing all the required projects before the end of the week to avoid repeatation of the block (week)",
-      ,
-    ],
-  },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Peter proved me wrong.",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
+      "I highly recommend Peter for any software development position that may arise. He is undoubtedly a valuable asset to any team. ",
+    name: "Abel Morara",
+    designation: "Alumn",
+    company: "Microverse",
+    image: abel,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Peter does.",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
+      "One of Peter's standout qualities is his remarkable attention to detail. I highly recommend him",
+    name: "Hussein Hashi",
+    designation: "Alumn",
+    company: "Microverse",
+    image: hussein,
   },
   {
     testimonial:
-      "After Peter optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
+      "It is impressive to witness his deep understanding and mastery of React and APIs",
+    name: "Okongo Derrick",
+    designation: "Alumn",
+    company: "Microverse",
+    image: okongo,
   },
 ];
 
 const projects = [
+  {
+    name: "Repairer Shop Manager",
+    description:
+      "This app help in managing a computer repairing shop, it helps in track of all transactions",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux Toolkit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express Js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "puppeeteer",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: repairer,
+    live_link: "https://tsm-frontend-c4ab.onrender.com",
+    source_code_link: "https://github.com/Peter-Dumbari/TSM-Frontend",
+  },
+
+  {
+    name: "Tams eShop",
+    description:
+      "This is an e-commerce site own by Tams Technology where you can buy all your electronics gadgets and accessories.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Rails",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: eShop,
+    source_code_link: "https://github.com/Peter-Dumbari/Ecommerce_frontend",
+    live_link: "https://tams-mall.onrender.com",
+  },
+  {
+    name: "Virtual Library",
+    description:
+      "This is a virtual library where users can read, download and reserve books for future or later reading, admin can manage books and also manage the category of the books to the library",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Rails",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: virtual_lib,
+    source_code_link: "https://github.com/coker2019/virtual-library-front-end",
+    live_link: "https://virtual-library-88xi.onrender.com",
+  },
   {
     name: "Hotel Hub",
     description:
@@ -245,6 +349,78 @@ const projects = [
     source_code_link: "https://github.com/Peter-Dumbari/Budget-Application.git",
     live_link: "https://budget-application-wscs.onrender.com/",
   },
+  {
+    name: "Currency Exchanger",
+    description:
+      "Currency Exchange app is an application that gives the current exchange rates",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rest API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+    ],
+    image: currency_app,
+    source_code_link:
+      "https://github.com/Peter-Dumbari/Metrics-Webapp/tree/development",
+    live_link: "https://currency-exchange-rates-nrj8.onrender.com/",
+  },
+  {
+    name: "Weather Application",
+    description:
+      "Weather App gives the current weather condition all round the globe, with the latitude and longitute of that location ",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rest API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+    ],
+    image: weather_app,
+    source_code_link: "https://github.com/Peter-Dumbari/weather-application",
+    live_link: "https://weather-application-nxnz.onrender.com/",
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const links = [
+  {
+    link: "https://www.linkedin.com/in/peterdumbari/",
+    icon: linkedin,
+    name: "linkedIn",
+  },
+  {
+    link: "https://github.com/Peter-Dumbari",
+    icon: github,
+    name: "github",
+  },
+  {
+    link: "https://twitter.com/PeterDumbari",
+    icon: twitter,
+    name: "twitter",
+  },
+  {
+    link: "https://mail.google.com/mail/u/1/?view=cm&fs=1&to=peterdumbari08@gmail.com&tf=1",
+    icon: mail,
+    name: "mail",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, links };
