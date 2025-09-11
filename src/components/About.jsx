@@ -36,13 +36,14 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I am a certified full-stack developer proficient in Ruby and JavaScript,
-        with specialized knowledge in frameworks such as React, Rails, Tailwind,
-        Bootstrap, and Three.js. My commitment lies in creating efficient,
-        scalable, and user-friendly solutions that address real-world
-        challenges. Through collaborative efforts with clients, I ensure the
-        delivery of high-quality results. Let's collaborate to transform your
-        ideas into reality!
+        I’m a full-stack developer with hands-on experience building
+        applications using the MERN stack, and I previously worked with Ruby on
+        Rails for backend development. I enjoy working with tools like React,
+        Tailwind, Bootstrap, and Three.js to create clean, responsive, and
+        interactive user experiences. My focus is always on building scalable,
+        efficient, and user-friendly solutions that solve real problems. I value
+        collaboration and clear communication, and I’m passionate about turning
+        ideas into practical, high-quality applications.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
