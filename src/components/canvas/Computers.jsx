@@ -4,12 +4,12 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { MeshoptDecoder } from "three/examples/jsm/libs/meshopt_decoder.module.js";
 import CanvasLoader from "../Loader";
 
-useGLTF.preload("/desktop_pc/scene.gltf", true, MeshoptDecoder);
-
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("/desktop_pc/scene.gltf", true, MeshoptDecoder);
+  useEffect(() => {
+    useGLTF.preload("/desktop_pc/scene3-opt.glb", true, MeshoptDecoder);
+  }, []);
+  const computer = useGLTF("/desktop_pc/scene3-opt.glb", true, MeshoptDecoder);
 
-  console.log("computer", computer);
   return (
     <mesh>
       <hemisphereLight intensity={2} groundColor="black" />
