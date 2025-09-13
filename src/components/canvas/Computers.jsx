@@ -5,11 +5,7 @@ import { MeshoptDecoder } from "three/examples/jsm/libs/meshopt_decoder.module.j
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  useEffect(() => {
-    useGLTF.preload("/desktop_pc/scene3-opt.glb", true, MeshoptDecoder);
-  }, []);
   const computer = useGLTF("/desktop_pc/scene3-opt.glb", true, MeshoptDecoder);
-
   return (
     <mesh>
       <hemisphereLight intensity={2} groundColor="black" />
@@ -21,11 +17,11 @@ const Computers = ({ isMobile }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <pointLight intensity={2} />
+      <pointLight intensity={3} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        scale={isMobile ? 0.6 : 0.75}
+        position={isMobile ? [0, -2, -1.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -59,21 +55,23 @@ const ComputersCanvas = () => {
   return (
     <Canvas
       frameloop="demand"
-      shadows
-      dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}>
+      shadow-mapSize={isMobile ? 256 : 1024}
+      dpr={isMobile ? 1 : [1, 2]}
+      camera={{ position: [20, 3, 5], fov: isMobile ? 20 : 25 }}
+      gl={isMobile ? {} : { preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls
-          enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
-        />
+        {!isMobile && (
+          <OrbitControls
+            enableZoom={false}
+            maxPolarAngle={Math.PI / 2}
+            minPolarAngle={Math.PI / 2}
+          />
+        )}
 
         <Computers isMobile={isMobile} />
       </Suspense>
 
-      <Preload all />
+      {!isMobile && <Preload all />}
     </Canvas>
   );
 };
