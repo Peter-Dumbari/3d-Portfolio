@@ -19,7 +19,8 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern":
+          "url('https://res.cloudinary.com/tamstech-computer-repair-center/image/upload/v1757940485/3d%20portfolio/herobg_w9r7x9.png')",
       },
     },
   },

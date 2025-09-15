@@ -18,14 +18,12 @@ const Computers = ({ isMobile }) => {
         shadow-mapSize={1024}
       />
       <pointLight intensity={3} />
-      {!isMobile && (
-        <primitive
-          object={computer.scene}
-          scale={0.75}
-          position={[0, -3.25, -1.5]}
-          rotation={[-0.01, -0.2, -0.1]}
-        />
-      )}
+      <primitive
+        object={computer.scene}
+        scale={isMobile ? 0.6 : 0.75}
+        position={isMobile ? [0, -2, -1.2] : [0, -3.25, -1.5]}
+        rotation={[-0.01, -0.2, -0.1]}
+      />
     </mesh>
   );
 };
@@ -70,7 +68,7 @@ const ComputersCanvas = () => {
           />
         )}
 
-        {!isMobile && <Computers isMobile={isMobile} />}
+        <Computers isMobile={isMobile} />
       </Suspense>
 
       {!isMobile && <Preload all />}
