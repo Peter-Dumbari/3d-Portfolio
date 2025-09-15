@@ -21,7 +21,15 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      {window.innerWidth > 768 ? (
+        <ComputersCanvas />
+      ) : (
+        <img
+          src="https://res.cloudinary.com/tamstech-computer-repair-center/image/upload/v1757950944/3d%20portfolio/gwjaq4evovppjhxtlij8.png"
+          alt="Computer Preview"
+          className="w-[90%] h-[100%] mx-auto object-cover "
+        />
+      )}
     </section>
   );
 };
