@@ -43,8 +43,9 @@ import bookstore from "./bookstore.png";
 import budgetapp from "./budgetapp.png";
 import currency_app from "./currency_rates.png";
 import weather_app from "./weather_app.jpg";
+import ogonitunes from "./ogonitunes.png";
 import mail from "./mail.png";
-export { default as eShop } from "./tamse-shop.jpg";
+export { default as eShop } from "./tams-eshop.png";
 export { default as virtual_lib } from "./virtual_lib.png";
 
 export {
@@ -91,4 +92,5 @@ export {
   returnicon,
   chevron,
   repairer,
+  ogonitunes,
 };

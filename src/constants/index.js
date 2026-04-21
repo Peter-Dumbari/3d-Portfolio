@@ -33,6 +33,7 @@ import {
   eShop,
   virtual_lib,
   repairer,
+  ogonitunes,
 } from "../assets";
 
 export const navLinks = [
@@ -203,6 +204,32 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Ogoni Tunes",
+    description:
+      "Ogoni tunes is an internation music site that provides access to Ogoni music worldwide, it is a music streaming platform that allows users to listen to and discover music from around the world, with a focus on Ogoni music.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux Toolkit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express Js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ogonitunes,
+    live_link: "https://ogonitunes.onrender.com",
+    source_code_link: "https://github.com/Peter-Dumbari/Ogonitunes",
+  },
+  {
     name: "Repairer Shop Manager",
     description:
       "This app help in managing a computer repairing shop, it helps in track of all transactions",
@@ -221,6 +248,10 @@ const projects = [
       },
       {
         name: "puppeeteer",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Socket.io",
         color: "blue-text-gradient",
       },
     ],
