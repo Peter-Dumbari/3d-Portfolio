@@ -34,6 +34,7 @@ import {
   virtual_lib,
   repairer,
   ogonitunes,
+  mongodb,
 } from "../assets";
 
 export const navLinks = [
@@ -117,8 +118,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "MongoDB",
+    icon: mongodb,
   },
 ];
 
