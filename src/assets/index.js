@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import flogo from "./flogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -7,6 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import link from "./link.png";
+import heroImg from "./hero.jpg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -93,4 +95,6 @@ export {
   chevron,
   repairer,
   ogonitunes,
+  flogo,
+  heroImg,
 };

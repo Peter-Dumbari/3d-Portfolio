@@ -1,6 +1,8 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { heroImg } from "../assets";
 
 const Hero = () => {
   return (
@@ -16,19 +18,33 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#FF8658]">Peter</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A Professional Website Developer/Designer
-          </p>
+
+          <div className="mt-2">
+            <Typewriter
+              options={{
+                strings: ["The CEO of PECH NG, a software development company"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div>
+          {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            
+          </p> */}
         </div>
       </div>
       {window.innerWidth > 768 ? (
         <ComputersCanvas />
       ) : (
-        <img
-          src="https://res.cloudinary.com/tamstech-computer-repair-center/image/upload/v1757950944/3d%20portfolio/gwjaq4evovppjhxtlij8.png"
-          alt="Computer Preview"
-          className="w-[90%] h-[100%] mx-auto object-cover "
-        />
+        <div className="mobile-hero absolute  w-full h-full flex justify-center items-end">
+          <div className="image-container h-[65%] w-[90%] border-dashed border-4 border-[#FF8658] rounded-full overflow-hidden p-2">
+            <img
+              src={heroImg}
+              alt="Hero Mobile"
+              className="mobile-hero-image w-full h-full object-cover center-center hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+        </div>
       )}
     </section>
   );
