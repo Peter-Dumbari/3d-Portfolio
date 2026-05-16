@@ -36,12 +36,12 @@ const Hero = () => {
       {window.innerWidth > 768 ? (
         <ComputersCanvas />
       ) : (
-        <div className="mobile-hero absolute  w-full h-full flex justify-center items-end">
-          <div className="image-container h-[65%] w-[90%] border-dashed border-4 border-[#FF8658] rounded-full overflow-hidden p-2">
+        <div className="mobile-hero absolute  w-full h-full flex justify-center items-center top-20">
+          <div className="image-container h-[40%] w-[80%]  border-2 border-[#ffff] rounded-full overflow-hidden shadow-lg shadow-[#FF8658]">
             <img
               src={heroImg}
               alt="Hero Mobile"
-              className="mobile-hero-image w-full h-full object-cover center-center hover:scale-105 transition-transform duration-300"
+              className="mobile-hero-image w-full h-full object-cover center-center"
             />
           </div>
         </div>
