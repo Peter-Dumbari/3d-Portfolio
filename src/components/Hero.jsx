@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { heroImg } from "../assets";
@@ -17,9 +18,19 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#FF8658]">Peter</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            The CEO of PECH NG, a software development company
-          </p>
+
+          <div className="mt-2">
+            <Typewriter
+              options={{
+                strings: ["The CEO of PECH NG, a software development company"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div>
+          {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            
+          </p> */}
         </div>
       </div>
       {window.innerWidth > 768 ? (
