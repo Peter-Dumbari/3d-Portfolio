@@ -40,7 +40,7 @@ const Contact = () => {
           to_email: "peterdumbari08@gmail.pro",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
       )
       .then(
         () => {
@@ -57,8 +57,8 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
-        }
+          alert("Chai, something went wrong. Please try again.");
+        },
       );
   };
 

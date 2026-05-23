@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { heroImg } from "../assets";
+import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#FF8658]">Peter</span>
           </h1>
 
-          <div className="mt-2">
+          <div className="mt-2 h-20 ">
             <Typewriter
               options={{
                 strings: ["The CEO of PECH NG, a software development company"],
@@ -28,6 +29,39 @@ const Hero = () => {
               }}
             />
           </div>
+          <div className="lg:hidden flex justify-evenly items-center w-[250px] ">
+            <button
+              onClick={() => {
+                window.open(
+                  "https://www.linkedin.com/in/peterdumbari/",
+                  "_blank",
+                );
+              }}
+              className="h-12 w-12 border border-white p-3 rounded-full flex justify-center items-center cursor-pointer text-white text-[14px] hover:border-[#FF8658] hover:text-[#FF8658] transition">
+              <FaLinkedinIn size={30} />
+            </button>
+            <button
+              onClick={() => {
+                window.open(
+                  "https://www.linkedin.com/in/peterdumbari/",
+                  "_blank",
+                );
+              }}
+              className="h-12 w-12 border border-white p-2 rounded-full flex justify-center items-center cursor-pointer text-white text-[14px]">
+              <FaGithub size={30} />
+            </button>
+            <button
+              onClick={() => {
+                window.open(
+                  "https://www.linkedin.com/in/peterdumbari/",
+                  "_blank",
+                );
+              }}
+              className="h-12 w-12 border border-white p-2 rounded-full flex justify-center items-center cursor-pointer text-white text-[14px]">
+              <FaTwitter size={30} />
+            </button>
+          </div>
+
           {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             
           </p> */}
@@ -36,7 +70,7 @@ const Hero = () => {
       {window.innerWidth > 768 ? (
         <ComputersCanvas />
       ) : (
-        <div className="mobile-hero absolute  w-full h-full flex justify-center items-center top-20">
+        <div className="mobile-hero absolute  w-full h-full flex flex-col justify-center items-center top-20">
           <div className="image-container h-[40%] w-[80%]  border-2 border-[#ffff] rounded-full overflow-hidden shadow-lg shadow-[#FF8658]">
             <img
               src={heroImg}

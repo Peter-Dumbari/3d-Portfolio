@@ -4,7 +4,7 @@ import { returnicon, chevron } from "../assets";
 import { links } from "../constants";
 
 const Footer = () => {
-  const [show, setShow] = React.useState(true);
+  const [show, setShow] = React.useState(false);
 
   const handleShow = () => {
     setShow(true);
@@ -14,7 +14,7 @@ const Footer = () => {
     setShow(false);
   };
   return (
-    <div className="fixed top-0 left-0 flex items-center h-full">
+    <div className="hidden md:flex fixed top-0 left-0 flex items-center h-full">
       {show ? (
         <div className=" bg-black-100 p-3 rounded-2xl">
           <div className="flex  flex-col w-10  p-[1px] z-40">
