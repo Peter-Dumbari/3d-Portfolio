@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -6,6 +6,19 @@ import { heroImg } from "../assets";
 import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Hero = () => {
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth > 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -35,7 +48,7 @@ const Hero = () => {
           </p> */}
         </div>
       </div>
-      {window.innerWidth > 768 ? (
+      {isDesktop ? (
         <ComputersCanvas />
       ) : (
         <div className="mobile-hero absolute  w-full h-full flex flex-col justify-center items-center top-20 z-10">
@@ -49,10 +62,7 @@ const Hero = () => {
             <div className="lg:hidden absolute flex justify-evenly items-center w-[250px] z-50 bottom-20">
               <button
                 onClick={() =>
-                  window.open(
-                    "https://www.linkedin.com/in/peterdumbari/",
-                    "_blank",
-                  )
+                  window.open("https://linkedin.com/in/peterdumbari", "_blank")
                 }
                 className="h-8 w-8 border border-white p-2 rounded-full flex justify-center items-center cursor-pointer text-white text-[14px] hover:border-[#FF8658] hover:text-[#FF8658] transition">
                 <FaLinkedinIn size={30} />
