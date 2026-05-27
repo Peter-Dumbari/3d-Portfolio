@@ -52,7 +52,7 @@ const Hero = () => {
         <ComputersCanvas />
       ) : (
         <div className="mobile-hero absolute  w-full h-full flex flex-col justify-center items-center top-20 z-10">
-          <div className="image-container h-[45%] w-[80%]  border-2 border-[#ffff] rounded-full overflow-hidden shadow-lg shadow-[#FF8658]">
+          <div className="image-container h-[40%] w-[80%]  border-2 border-[#ffff] rounded-full overflow-hidden shadow-lg shadow-[#FF8658]">
             <img
               src={heroImg}
               alt="Hero Mobile"
